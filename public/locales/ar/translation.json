@@ -1,0 +1,41 @@
+{
+  "header": {
+    "cart": "السله",
+    "login": "تسجيل الدخول",
+    "input": {
+      "placeholder": "...ابحث هنا"
+    }
+  },
+  "footer": {
+    "about": "عنّا",
+    "aboutUs": "من نحن",
+    "ourBranches": "فروعنا",
+    "changelog": "سجل التغييرات",
+    "quickLinks": "روابط سريعة",
+    "faqs": "الأسئلة الشائعة",
+    "recipes": "الوصفات",
+    "contactUs": "تواصل معنا",
+    "helpSupport": "المساعدة والدعم",
+    "termsOfService": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "security": "الأمان",
+    "company": "الشركة",
+    "blog": "المدونة",
+    "contact": "اتصل بنا",
+    "social": "التواصل الاجتماعي",
+    "facebook": "فيسبوك",
+    "instagram": "إنستغرام",
+    "twitter": "تويتر",
+    "copyright": "جميع الحقوق محفوظة © {{year}} {{company}}"
+  },
+  "pageError": {
+    "title": "حدث خطأ ما",
+    "description": "عذرًا، حدث خطأ غير متوقع. يُرجى محاولة تحديث الصفحة أو العودة لاحقًا.",
+    "reload": "حاول مرة أخرى"
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها غير متاحة. حاول البحث مرة أخرى أو استخدم زر الرجوع أدناه.",
+    "goBack": "العودة"
+  }
+}
