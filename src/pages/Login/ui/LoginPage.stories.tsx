@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
-
+import { RouterDecorators, ThemeDecorators, LanguageDecorators } from "@/shared/config/storybook";
 import LoginPage from "./LoginPage";
 
 const meta = {
@@ -9,6 +9,7 @@ const meta = {
     layout: "centered",
   },
   tags: ["autodocs"],
+  decorators: [ThemeDecorators, RouterDecorators, LanguageDecorators],
 } satisfies Meta<typeof LoginPage>;
 
 export default meta;
