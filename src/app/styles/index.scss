@@ -1,0 +1,12 @@
+@use "./reset.scss";
+@use "./themes/blue.scss";
+@use "./themes/pink.scss";
+@use "./global.scss";
+@use "tailwindcss";
+
+body {
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-weight: 800;
+}

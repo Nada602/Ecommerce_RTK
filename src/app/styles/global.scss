@@ -1,0 +1,113 @@
+/* global.css — base styles + theme variable defaults */
+
+:root {
+  /* Fallback theme variables (overridden by theme files) */
+  --color-primary: #333333;
+  --color-primary-light: #666666;
+  --color-primary-dark: #111111;
+  --color-accent: #999999;
+  --color-bg: #ffffff;
+  --color-surface: #f5f5f5;
+  --color-text: #1a1a1a;
+  --color-text-muted: #666666;
+  --color-border: #e0e0e0;
+
+  /* Spacing scale */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-48: 48px;
+  --space-60: 60px;
+
+  --gray-50: #f8f7f8;
+  --gray-100: #f0eef0;
+  --gray-200: #dddadd;
+  --gray-300: #bfb9c8;
+  --gray-400: #9c939d;
+  --gray-500: #807681;
+  --gray-600: #686069;
+  --gray-700: #494349;
+  --gray-800: #3e3b3f;
+
+  --green-50: #edffed;
+  --green-500: #117e11;
+
+  --red-50: #f9e9e9;
+  --red-500: #b81e1e;
+
+  --yellow-50: #f8f8e9;
+  --yellow-500: #b8bb23;
+
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-20: 20px;
+  --space-32: 32px;
+  --space-48: 48px;
+  --space-60: 60px;
+  --space-140: 140px;
+
+  --container-max-content: 100%;
+  --container-gutter: 80px;
+  --container-gutter-sm: 16px;
+  --container-padding: var(--container-gutter);
+
+  --promo-carousel-height: 248px;
+  --sidebar-width: 300px;
+  --header-height: 78px;
+  --page-content-padding-bottom: 24px;
+
+  --modal-z-index: 1000;
+  --toast-z-index: 9999;
+
+  /* Typography */
+
+  --font-family-main: "Roboto", sans-serif;
+  --font-size-base: 16px;
+  --radius-base: 8px;
+ 
+}
+
+body {
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  // font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 var(--space-md);
+}
+
+.surface {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-base);
+  padding: var(--space-md);
+}
+
+.btn {
+  display: inline-block;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-base);
+  background-color: var(--color-primary);
+  color: #ffffff;
+  transition: background-color 0.15s ease;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.text-muted {
+  color: var(--color-text-muted);
+}
+
+.accent {
+  color: var(--color-accent);
+}
